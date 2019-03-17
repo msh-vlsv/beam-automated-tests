@@ -48,12 +48,12 @@ public class ScrollView extends BaseView {
 //    }
 
     public void scroll(double start, double end) {
-        TouchAction action = new TouchAction(driver);
+        TouchAction touchAction = new TouchAction(driver);
         Dimension size = driver.manage().window().getSize();
         int x = size.width / 2;
         int startY = (int) (size.height * start);
         int endY = (int) (size.height * end);
-        action
+        touchAction
                 .longPress(point(x, startY))
                 .moveTo(point(x, endY))
                 .release()
@@ -61,8 +61,10 @@ public class ScrollView extends BaseView {
     }
 
     public void scrollDownToElement(BaseElement baseElement) {
-        while (!baseElement.isElementVisible(2)) {
+        int maxScrolls = 10;
+        while (!baseElement.isElementVisible(2) || maxScrolls > 0) {
             scrollDown();
+            maxScrolls--;
         }
     }
 

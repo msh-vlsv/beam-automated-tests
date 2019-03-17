@@ -11,9 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.BeamLogger;
 import utils.driver.BeamDriver;
 
-import java.util.Collections;
-import java.util.List;
-
 public abstract class BaseElement {
 
     protected static final long DEFAULT_TIMEOUT = 10;
@@ -58,20 +55,6 @@ public abstract class BaseElement {
         }
     }
 
-    public List<WebElement> waitForElements() {
-        return waitForElements(DEFAULT_TIMEOUT);
-    }
-
-    public List<WebElement> waitForElements(long timeoutInSeconds) {
-        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
-        try {
-            return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(byLocator));
-        } catch (TimeoutException e1) {
-            logger.warn(getErrorMessage());
-            return Collections.emptyList();
-        }
-    }
-
     public boolean waitForElementDisappearance() {
         WebDriverWait wait = new WebDriverWait(driver, DEFAULT_TIMEOUT);
         try {
@@ -82,12 +65,16 @@ public abstract class BaseElement {
         }
     }
 
-    private String getErrorMessage() {
+    protected String getErrorMessage() {
             return getName() + " not found: " + byLocator.toString();
     }
 
     public String getName() {
         return name;
+    }
+
+    protected By getByLocator() {
+        return byLocator;
     }
 
     public boolean isElementVisible() {
@@ -98,7 +85,7 @@ public abstract class BaseElement {
         return waitForElement(timeout) != null;
     }
 
-    public String getAttributeLabel() {
+    public String getLabel() {
         return waitForElement().getAttribute("label");
     }
 

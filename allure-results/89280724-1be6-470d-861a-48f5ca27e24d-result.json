@@ -1,0 +1,1 @@
+{"uuid":"89280724-1be6-470d-861a-48f5ca27e24d","historyId":"b25a7af0ad83559ab38c4e0f8c38487b","labels":[{"name":"suite","value":"autotests.unauthorized.SubredditsViewTest"},{"name":"package","value":"autotests.unauthorized.SubredditsViewTest"}],"name":"testChangingFavouriteSubredditsOrder()","status":"passed","stage":"finished","start":1551553912311,"stop":1551553918312}

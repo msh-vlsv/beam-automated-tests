@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.iml" filepath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -2,18 +2,12 @@ package utils;
 
 import io.appium.java_client.ios.IOSDriver;
 import io.qameta.allure.Attachment;
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.OutputType;
 import utils.driver.BeamDriver;
-
-import java.io.*;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 
 public class TestWatcher implements BeforeEachCallback, AfterEachCallback {
 

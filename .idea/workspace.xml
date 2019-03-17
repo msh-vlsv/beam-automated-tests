@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4cb7277a-5c1f-4f82-bd10-dabd83e94b11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cglib_cglib_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_net_commons_net_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_validator_commons_validator_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_appium_java_client_7_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure2_model_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure2_model_jackson_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure2_model_pojo_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure_java_commons_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure_junit5_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure_junit_platform_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_cssparser_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_neko_htmlunit_2_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tika_tika_core_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_4_9_v20180320.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jooq_joor_java_8_0_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_htmlunit_driver_2_30_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_jetty_repacked_9_4_8_v20180619.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_server_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xalan_serializer_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xalan_xalan_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/com.madeawkward.beam.beam.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/RecentlyVisitedSubreddit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/SearchField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToSubredditSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToUserSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/RecentlySearchedSubreddit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchPostsSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchSubredditsSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ReorderButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/SubredditStreamView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/CloseButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/ComposeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/SubredditName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSearchPrecondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/AppIcon60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/AppIcon76x76@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/AssetsPickerControllerAlbumEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/AssetsPickerControllerAuthorizationEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/LaunchScreen.storyboardc/UITabBarController-lU2-L6-sCL.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/LaunchScreen.storyboardc/jaD-wj-S7P-view-3Iy-MM-HPV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/4yP-RM-RcD-view-R5j-ed-N9L.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/InboxViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/ProfileViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/TNj-7g-ypy-view-FQG-gp-URq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/UIViewController-VOG-hM-D0F.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/VOG-hM-D0F-view-Zdx-Sg-ikL.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/XuF-DX-9dg-view-yKK-5s-lgk.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/ZIw-Xe-cIX-view-v6Z-1g-9e8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/compose-message.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/fDT-vt-vSC-view-PPj-zA-aXm.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/fuX-O9-csx-view-IWn-hF-aKW.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/gnQ-sn-tfM-view-PLm-oP-rHB.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/inbox.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/messageConversation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/messages-blank-view.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/messages-navigation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/postSearchResults.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/profile-navigation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/qzA-2X-81r-view-zv2-Dz-hM0.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/search-navigation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/subscriptions-navigation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/t4c-bZ-4SU-view-Ptr-Nu-itj.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Base.lproj/Main.storyboardc/tabbarcontroller.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/BeamEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CommentCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/LtJ-Y0-e9o-view-9Ae-4u-7XE.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/Qh6-8Z-d46-view-jIi-m5-T5s.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/UINavigationController-fKJ-qF-Se6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/comments.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Comments.storyboardc/compose.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CommentsFooterView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CommentsHeaderView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/ContinueCommentThreadCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/Ta6-6q-g1p-view-EgG-yi-kcm.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/UINavigationController-dx1-2Y-ZgK.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/Z5s-fY-Gya-view-gsV-be-UUX.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/create-image-post.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/create-link-post.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/create-text-post.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/dLr-yM-hEq-view-YOp-T5-r36.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/CreatePost.storyboardc/oOZ-jf-LE6-view-lcp-ah-k3m.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/EditMultireddit.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/EditMultireddit.storyboardc/UINavigationController-PUj-nj-3G3.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/EditMultireddit.storyboardc/onf-vA-aVq-view-Uyi-OU-hFM.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AWKGallery.framework/AWKGallery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AWKGallery.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AWKGallery.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AWKGallery.framework/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/AssetsPickerController" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/EmptyAlbumEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/objects-9.1+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/objects-9.1+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/objects-9.1+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/objects-9.1+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/objects-9.1+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/NoAccessEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/AssetsPickerController.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/CherryKit.framework/CherryKit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/CherryKit.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/CherryKit.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/ImgurKit.framework/ImgurKit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/ImgurKit.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/ImgurKit.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/JLRoutes.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/JLRoutes.framework/JLRoutes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/JLRoutes.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPArrowLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPArrowLeft@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPArrowRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPArrowRight@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPCheckmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPCheckmark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPCloseButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPCloseButton@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPCloseButton@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPDismissKeyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPDismissKeyboard@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPLogo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~ipad.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphonelandscape.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphoneportrait.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/Mixpanel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Mixpanel.framework/placeholder-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Ocarina.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Ocarina.framework/Ocarina" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Ocarina.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/Pods_beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeRequirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeSignature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/RedditMarkdownKit.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/RedditMarkdownKit.framework/RedditMarkdownKit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/RedditMarkdownKit.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/SDWebImage.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/SDWebImage.framework/SDWebImage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-1-2.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-10-11.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-11-12.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-12-13.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-13-14.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-2-3.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-3-4.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-4-5.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-5-6.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-6-7.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-7-8.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-8-9.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo-mapping-9-10.cdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 10.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 11.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 12.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 13.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 14.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 14.omo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 2.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 3.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 4.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 5.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 6.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 7.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 8.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 9.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/Snoo.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/Snoo.momd/VersionInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/de.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/es.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/fr.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Snoo.framework/zh-Hans.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/TTTAttributedLabel.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/TTTAttributedLabel.framework/TTTAttributedLabel" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/TTTAttributedLabel.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Trekker.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Trekker.framework/Trekker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/Trekker.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftAVFoundation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCore.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreAudio.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreData.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreFoundation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreGraphics.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreImage.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreLocation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftCoreMedia.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftDarwin.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftDispatch.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftFoundation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftGLKit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftMetal.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftModelIO.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftObjectiveC.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftPhotos.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftQuartzCore.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftSpriteKit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftSwiftOnoneSupport.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftUIKit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftos.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Frameworks/libswiftsimd.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/GalleryPostBottomView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/ImgurGalleryToolbar.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/LoadMoreCommentsCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MarkdownActionBar.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/5Ip-00-9f3-view-CUw-KB-1KC.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/Nwk-Me-EL8-view-6ug-8t-eg6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/PostMediaOverview.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/UIViewController-5Ip-00-9f3.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/gallery-album.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/imgur-gallery-album.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/lsF-Vs-Sf6-view-ymy-FY-ydX.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MediaOverview.storyboardc/zff-jj-IHM-view-sOh-mS-ryb.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/MultiredditSubTableViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Passcode.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Passcode.storyboardc/NYT-Pj-dn8-view-cGZ-mF-Ha6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Passcode.storyboardc/Pff-zM-28Z-view-6MR-zM-wvs.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Passcode.storyboardc/enter-passcode.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Passcode.storyboardc/start-enter-passcode.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostCommentPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostImageCollectionPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostImagePartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostMetaDataPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostSelfTextPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostTitlePartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostTitleWithThumbnailPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostToolbarPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostURLPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/PostVideoURLPartCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Profile.storyboardc/2GN-uX-iXC-view-hrz-4y-Uwy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Profile.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Profile.storyboardc/ProfileNavigationController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Profile.storyboardc/ProfileViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/ReplyBarView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Report.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Report.storyboardc/LGx-8L-1Ta-view-DyJ-6W-GhV.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Report.storyboardc/UINavigationController-8MO-fO-nhL.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.bundle/Acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.bundle/Root.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/Al3-n2-2pL-view-Rko-Cj-qia.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/CUg-4b-FvZ-view-MR0-vK-AAA.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/Ggw-bE-CJO-view-dkF-0F-87s.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/HC8-cJ-i8l-view-4Mz-pv-j1W.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/Qhk-u1-Y0V-view-mlq-1D-1hB.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/TAS-aH-TeY-view-YEc-tr-4BW.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/UINavigationController-LSR-2k-R5W.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/UITableViewController-WVN-2I-QXw.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/WVN-2I-QXw-view-uR2-XA-Buy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/ZPi-GS-LC1-view-d5i-7E-y0k.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/about.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/bVf-Go-qjZ-view-SsY-wu-Raz.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/browser.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/change-language.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/display-options.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/donateThankYouView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/donation.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/font-size-options.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/gEC-hn-Gk8-view-9gb-jU-UbZ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/imgur-manager.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/lb1-FA-RCr-view-Ehv-h1-8mz.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/notifications.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/open-app-on.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/passcode.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/settings.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/t2y-La-9nI-view-ofb-5H-2an.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Settings.storyboardc/tUb-vG-AQw-view-2LA-8P-Hes.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Stream.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Stream.storyboardc/UXM-2N-Gua-view-mZy-wg-cEX.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Stream.storyboardc/subredditstream.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/3EN-LO-9Po-view-4Jy-6W-wjS.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/GmU-Jo-nbU-view-hjV-vQ-PxT.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/JUm-be-1Fv-view-Jon-BD-53I.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/M3M-x8-kEJ-view-ptF-Q0-mtk.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/MultiredditSubsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/SubredditInfoViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/UINavigationController-8UG-9P-Mv8.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/UINavigationController-Voh-Fy-whU.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/UITableViewController-VHj-hT-pG9.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/UIViewController-GmU-Jo-nbU.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/VHj-hT-pG9-view-j2S-HS-EQq.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/Yx9-cL-kUQ-view-Onc-gu-80K.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/gUW-bb-xi3-view-l5W-ZV-nTK.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/subredditSearchResults.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/subreddittabbar.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/Subreddit.storyboardc/vcS-gS-6ge-view-An6-Ya-ffA.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/SubredditList.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/SubredditList.storyboardc/UITableViewController-fHP-ie-UAE.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/SubredditList.storyboardc/fHP-ie-UAE-view-Hdm-Zo-eef.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/SubredditTitleView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/TableViewHeaderBannerView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/WebViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/biem.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/downvote.caf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/libswiftRemoteMirror.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/spark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/stars_level_0.sks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/stars_level_1.sks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/tap.caf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/beam.app/upvote.caf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logs/beamLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/logs/beamLogs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/MainView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/SubredditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/SubredditsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarAww.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarBooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarExplainlikeimfive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarMovies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarTodayilearned.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/StarWritingPrompts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditAww.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditBooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditExplainlikeimfive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditFrontpage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditMovies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditTodayilearned.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/subreddits/elements/subreddits/SubredditWritingPrompts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/welcome/elements/Headline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/welcome/elements/Headline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/welcome/elements/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/welcome/elements/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/BaseElement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/common/elements/BaseElement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/BaseElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/common/elements/BaseElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/ClickableElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/common/elements/ClickableElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/EditableTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/LoadingIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/elements/NonEditableTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/views/ScrollView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/common/views/ScrollView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/MobileCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/MobileCommands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/SkipAlerts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/TestWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/TestWatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/BeamDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/BeamDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/DriverBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/DriverFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/DriverFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8PlusSimulatorDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8PlusSimulatorDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/IphoneXsSimulatorDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/IphoneXsSimulatorDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/AppManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/landing/LandingHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/main/MainHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/main/SubredditsHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/common/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/autotests/common/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/common/preconditions/UnauthorizedMainPrecondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/autotests/common/preconditions/UnauthorizedMainPrecondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/common/preconditions/WelcomePrecondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/autotests/common/preconditions/WelcomePrecondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/subreddits/SubredditsViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/welcome/WelcomeViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarAww.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarBooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarExplainlikeimfive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarMovies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarTodayilearned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarWritingPrompts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditAww.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditBooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditExplainlikeimfive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditFrontpage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditMovies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditTodayilearned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditWritingPrompts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/welcome/elements/Headline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/welcome/elements/Headline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/welcome/elements/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/welcome/elements/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/elements/EditableTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/elements/TextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/elements/LoadingIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/elements/NonEditableTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/elements/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="beam" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="beam" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="beam" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="beam" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="beam" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/ExplainlikeimfiveReorderButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/MoviesReorderButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/TodayilearnedReorderButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/WritingPromptsReorderButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/ListOfAllReorderButtons.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/SearchField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/MainView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchSubredditsSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchPostsSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToSubredditSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToUserSuggestion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSearchPrecondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchViewTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/CloseButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/SubredditName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/ComposeButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/SubredditStreamView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/RecentlySearchedSubreddit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/RecentlyVisitedSubreddit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditAww.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Subreddit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/Subreddit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/SubredditButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/SubredditName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/SubredditFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/Subreddit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/SubredditFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/ReorderButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/ListOfSubreddits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/SubredditButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/Star.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="subreddits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="subreddits" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="subreddits" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="subreddits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotests" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam-automated-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotests" type="462c0819:PsiDirectoryNode" />
+              <item name="unauthorized" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552840412234" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest" />
+      <recent name="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits" />
+      <recent name="$PROJECT_DIR$/src/main/java/utils/driver_v2" />
+      <recent name="$PROJECT_DIR$/src/main/java/ui" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="autotests.unauthorized" />
+      <recent name="appmanager" />
+      <recent name="ui.appviews.main.subreddits.elements.reorderbuttons" />
+      <recent name="ui.appviews.main.subreddits.elements.subreddits" />
+      <recent name="ui.appviews.main.subreddits.elements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SubredditsViewTest.testAddingSubredditsToFavorites (2)">
+    <configuration name="SubredditsViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="METHOD_NAME" value="testAddingSubredditsToFavorites(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="METHOD_NAME" value="testAddingSubredditsToFavorites(int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubredditsViewTest.testRemovingSubredditsFromFavorites" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="METHOD_NAME" value="testRemovingSubredditsFromFavorites(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubredditsViewTest.testReversingFavouriteSubredditsOrder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="METHOD_NAME" value="testReversingFavouriteSubredditsOrder(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubredditsViewTest.testReversingFavouriteSubredditsOrder (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.unauthorized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
+      <option name="METHOD_NAME" value="testReversingFavouriteSubredditsOrder([Ljava.lang.String;)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SubredditsViewTest.testAddingSubredditsToFavorites (2)" />
+        <item itemvalue="JUnit.SubredditsViewTest" />
+        <item itemvalue="JUnit.SubredditsViewTest.testRemovingSubredditsFromFavorites" />
+        <item itemvalue="JUnit.SubredditsViewTest.testReversingFavouriteSubredditsOrder (1)" />
+        <item itemvalue="JUnit.SubredditsViewTest.testReversingFavouriteSubredditsOrder (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cb7277a-5c1f-4f82-bd10-dabd83e94b11" name="Default Changelist" comment="" />
+      <created>1551291579274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551291579274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SubredditsViewTest_testRemovingSubredditsFromFavorites - 2019.03.17 at 18h 00m 17s.xml">
+      <configuration name="SubredditsViewTest.testRemovingSubredditsFromFavorites" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 18h 02m 28s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 18h 04m 36s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testRemovingSubredditsFromFavorites - 2019.03.17 at 18h 14m 02s.xml">
+      <configuration name="SubredditsViewTest.testRemovingSubredditsFromFavorites" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest - 2019.03.17 at 18h 37m 51s.xml">
+      <configuration name="SubredditsViewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest - 2019.03.17 at 18h 58m 06s.xml">
+      <configuration name="SubredditsViewTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 18h 59m 36s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 19h 07m 00s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 19h 28m 17s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubredditsViewTest_testAddingSubredditsToFavorites_(2) - 2019.03.17 at 19h 35m 13s.xml">
+      <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.2081545" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.2081545" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchSubredditsSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/SearchPostsSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToSubredditSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToUserSuggestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/WelcomePrecondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedMainPrecondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSearchPrecondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/SubredditName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/Base.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/ComposeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/elements/CloseButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subredditstream/SubredditStreamView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/RecentlySearchedSubreddit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="171" selection-start-line="7" selection-start-column="171" selection-end-line="7" selection-end-column="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditBooks.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarAww.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/StarMovies.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditAww.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/SearchField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/RecentlyVisitedSubreddit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="170" selection-start-line="7" selection-start-column="170" selection-end-line="7" selection-end-column="170" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/LocatorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest/SubredditName.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/AwwReorderButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/BooksReorderButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Subreddit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/SubredditFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/Subreddit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/AllReorderButton.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30973">
+          <caret line="989" column="24" lean-forward="true" selection-start-line="989" selection-start-column="24" selection-end-line="989" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ReorderButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2752#2753#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

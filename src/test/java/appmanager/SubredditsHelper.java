@@ -2,15 +2,21 @@ package appmanager;
 
 import io.qameta.allure.Step;
 import ui.appviews.main.subreddits.SubredditsView;
-import ui.common.elements.ClickableElement;
+import ui.appviews.main.subreddits.elements.subreddits.ReorderButton;
+import ui.appviews.main.subreddits.elements.subreddits.Star;
+import ui.appviews.main.subreddits.elements.subreddits.SubredditButton;
 
-import java.util.Map;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SubredditsHelper extends HelperBase {
 
     private SubredditsView subredditsView = new SubredditsView();
 
-    private Map<ClickableElement, ClickableElement> subreddits = subredditsView.getSubreddits();
+    public List<String> getSubredditLabels() {
+        return subredditsView.getListOfSubreddits().getLabels();
+    }
 
     @Step("Click Edit button")
     public void clickEditButton() {
@@ -22,43 +28,50 @@ public class SubredditsHelper extends HelperBase {
         subredditsView.getDoneButton().click();
     }
 
-    @Step("Add subreddits to favorites")
-    public void addSubredditsToFavorites() {
-        for (ClickableElement subreddit: subreddits.keySet()) {
-            subredditsView.scrollDownToElement(subreddit);
-            subreddits.get(subreddit).click();
+    @Step("Add subreddit {label} to favorites")
+    public void addSubredditToFavorites(String label) {
+        SubredditButton subredditButton = subredditsView.getListOfSubreddits().getSubredditButton(label);
+        subredditsView.scrollDownToElement(subredditButton);
+        Star star = subredditButton.getStar();
+        assertEquals("tableview star", star.getLabel());
+        star.click();
+    }
+
+    @Step("Remove subreddit {label} from favorites")
+    public void removeSubredditFromFavorites(String label) {
+        SubredditButton subredditButton = subredditsView.getListOfSubreddits().getSubredditButton(label);
+        subredditsView.scrollDownToElement(subredditButton);
+        Star star = subredditButton.getStar();
+        assertEquals("tableview star filled", star.getLabel());
+        star.click();
+    }
+
+    public void addSubredditsToFavorites(List<String> labels) {
+        for (String label : labels) {
+            addSubredditToFavorites(label);
         }
     }
 
-    @Step("Remove subreddits from favorites")
-    public void removeSubredditsFromFavorites() {
-        for (ClickableElement subreddit: subreddits.keySet()) {
-            subreddits.get(subreddit).click();
+    public void removeSubredditsFromFavorites(List<String> labels) {
+        for (String label : labels) {
+            removeSubredditFromFavorites(label);
         }
     }
 
-    @Step("Scroll page to the beginning")
-    public void scrollPageToTheBeginning() {
-        subredditsView.scrollUpToElement(subredditsView.getSubredditFrontpage());
+    public boolean isSubredditStarFilled(String label) {
+        SubredditButton subredditButton = subredditsView.getListOfSubreddits().getSubredditButton(label);
+        subredditsView.scrollDownToElement(subredditButton);
+        Star star = subredditButton.getStar();
+        return star.getLabel().equals("tableview star filled");
     }
 
-    public boolean areSubredditsAddedToFavorites() {
-        for (ClickableElement subreddit: subreddits.keySet()) {
-            if (!subreddits.get(subreddit).getAttributeLabel().equals("tableview star filled")) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public boolean areSubredditsRemovedFromFavorites() {
-        for (ClickableElement subreddit: subreddits.keySet()) {
-            subredditsView.scrollDownToElement(subreddit);
-            if (!subreddits.get(subreddit).getAttributeLabel().equals("tableview star")) {
-                return false;
-            }
-        }
-        return true;
+    @Step("Drag and drop subreddit {sourceLabel} to subreddit {destinationLabel}")
+    public void dragAndDropSubreddit(String sourceLabel, String  destinationLabel) {
+        SubredditButton sourceSubredditButton = subredditsView.getListOfSubreddits().getSubredditButton(sourceLabel);
+        ReorderButton sourceReorderButton = sourceSubredditButton.getReorderButton();
+        SubredditButton destinationSubredditButton = subredditsView.getListOfSubreddits().getSubredditButton(destinationLabel);
+        ReorderButton destinationReorderButton = destinationSubredditButton.getReorderButton();
+        sourceReorderButton.dragAndDrop(destinationReorderButton);
     }
 
 }

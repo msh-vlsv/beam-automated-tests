@@ -10,8 +10,8 @@ public abstract class IphoneDriver {
 
     protected DesiredCapabilities capabilities = new DesiredCapabilities();
 
-    protected static final String APP_FILE_DEVICE = System.getProperty("user.dir") + "/app/beam.app";
-    protected static final String APP_FILE_SIMULATOR = System.getProperty("user.dir") + "/app/beam.app";
+    protected static final String APP_FILE_DEVICE = System.getProperty("user.dir") + "/app/beam_device.app";
+    protected static final String APP_FILE_SIMULATOR = System.getProperty("user.dir") + "/app/beam_simulator.app";
     protected static final String APPIUM_URL_DEVICE = "http://0.0.0.0:4723/wd/hub";
     protected static final String APPIUM_URL_SIMULATOR = "http://127.0.0.1:4723/wd/hub";
     protected static final String DEVICE_NAME = "deviceName";

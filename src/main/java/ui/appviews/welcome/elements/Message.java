@@ -1,9 +1,9 @@
 package ui.appviews.welcome.elements;
 
 import ui.common.elements.LocatorType;
-import ui.common.elements.NonEditableTextField;
+import ui.common.elements.Text;
 
-public class Message extends NonEditableTextField {
+public class Message extends Text {
 
     private static final String NS_PREDICATE = "type == 'XCUIElementTypeStaticText' AND name BEGINSWITH 'Explore reddit'";
     private static final String NAME = "Welcome view message";
