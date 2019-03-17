@@ -36,7 +36,7 @@ public class ListOfElements extends BaseElement {
         }
     }
 
-    public ArrayList<String> getLabels() {
+    public List<String> getLabels() {
         List<WebElement> elements = waitForElements();
         ArrayList<String> labels = new ArrayList<>();
         for (WebElement element : elements) {

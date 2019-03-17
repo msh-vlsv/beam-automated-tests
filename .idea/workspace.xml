@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb7277a-5c1f-4f82-bd10-dabd83e94b11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/0d702189-1b01-4e0a-b575-5ccc5b9a9181-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/1e8f5bc4-6c12-4e72-bdb6-f7989738778a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/4741fc1e-68e7-4792-a4bf-aa53ae10f055-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/6c287483-e509-4307-aec1-42a8b6013bdd-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/allure-results/executor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/SubredditsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/SubredditsView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarAww.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarBooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarExplainlikeimfive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarMovies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarTodayilearned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/StarWritingPrompts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditAww.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditBooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditExplainlikeimfive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditFrontpage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditMovies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditTodayilearned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/subreddits/elements/subreddits/SubredditWritingPrompts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/welcome/elements/Headline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/welcome/elements/Headline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/welcome/elements/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/welcome/elements/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/BaseElement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/BaseElement$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/BaseElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/BaseElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/ClickableElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/ClickableElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/EditableTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/LoadingIndicator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/elements/NonEditableTextField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/views/ScrollView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/common/views/ScrollView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utils/TestWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utils/TestWatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utils/driver/IphoneDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utils/driver/IphoneDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/AppManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/MainHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/MainHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/SubredditsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/SubredditsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/common/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/autotests/common/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/SubredditsViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/SubredditsViewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logs/beamLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/logs/beamLogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/autotests.unauthorized.WelcomeViewTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/autotests.unauthorized.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-autotests.unauthorized.WelcomeViewTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -114,7 +63,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -124,6 +73,33 @@
                 <element signature="e#966#967#0" expanded="true" />
                 <element signature="e#992#993#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/MobileCommands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -145,9 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/MoviesReorderButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/TodayilearnedReorderButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/WritingPromptsReorderButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/reorderbuttons/ListOfAllReorderButtons.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/SearchField.java" />
@@ -187,15 +160,18 @@
         <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Star.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ParametersLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/MobileCommands.java" />
       </list>
     </option>
   </component>
@@ -355,6 +331,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,7 +406,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552848107275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552850872073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -455,7 +441,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.beam-automated-tests [test]">
+  <component name="RunManager" selected="Gradle.beam-automated-tests [allureServe]">
+    <configuration name="beam-automated-tests [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="beam-automated-tests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="beam-automated-tests [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -494,21 +518,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SubredditsViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.madeawkward.beam.beam.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="autotests.unauthorized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubredditsViewTest.testAddingSubredditsToFavorites (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.madeawkward.beam.beam.test" />
       <extension name="coverage">
@@ -541,29 +550,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubredditsViewTest.testRemovingSubredditsFromFavorites" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.madeawkward.beam.beam.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="autotests.unauthorized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="autotests.unauthorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsViewTest" />
-      <option name="METHOD_NAME" value="testRemovingSubredditsFromFavorites(java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.beam-automated-tests [allureReport]" />
+        <item itemvalue="Gradle.beam-automated-tests [allureServe]" />
         <item itemvalue="Gradle.beam-automated-tests [test]" />
         <item itemvalue="Gradle.beam-automated-tests [clean]" />
         <item itemvalue="JUnit.SubredditsViewTest.testAddingSubredditsToFavorites (2)" />
-        <item itemvalue="JUnit.SubredditsViewTest" />
-        <item itemvalue="JUnit.SubredditsViewTest.testRemovingSubredditsFromFavorites" />
       </list>
     </recent_temporary>
   </component>
@@ -614,9 +607,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -625,7 +617,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3759036" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3759036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -677,37 +669,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToSubredditSuggestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/suggestions/GoToUserSuggestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/WelcomePrecondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -896,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -966,43 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1053,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1076,6 +990,74 @@
             <element signature="e#966#967#0" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/BeamLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ParametersLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MobileCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>

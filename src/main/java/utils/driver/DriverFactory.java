@@ -1,6 +1,9 @@
 package utils.driver;
 
-public class DriverFactory {
+public final class DriverFactory {
+
+    private DriverFactory() {
+    }
 
     public static IphoneDriver getDriver(DeviceName deviceName) {
         switch (deviceName) {

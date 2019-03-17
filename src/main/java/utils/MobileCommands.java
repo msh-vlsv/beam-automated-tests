@@ -15,10 +15,13 @@ import static io.appium.java_client.touch.offset.PointOption.point;
 import static utils.InputPropertiesConstants.BUNDLE_ID;
 import static utils.ParametersLoader.getInputDataProperty;
 
-public class MobileCommands {
+public final class MobileCommands {
 
     private static IOSDriver driver = BeamDriver.getInstance().getDriver();
     private static Logger logger = BeamLogger.getInstance().getLogger();
+
+    private MobileCommands() {
+    }
 
     public static void hideKeyboard() {
         logger.info("Hide keyboard");

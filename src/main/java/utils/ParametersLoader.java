@@ -1,12 +1,15 @@
 package utils;
 
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Properties;
 
-public class ParametersLoader {
+public final class ParametersLoader {
 
+    private static Logger logger = BeamLogger.getInstance().getLogger();
     private static Properties inputDataProperties = new Properties();
 
     private static HashMap<String, Properties> propertiesHashMap = new HashMap<String, Properties>() {{
@@ -18,6 +21,9 @@ public class ParametersLoader {
         propertiesHashMap.keySet().stream().forEach(path -> loadProperties(propertiesHashMap.get(path), path));
     }
 
+    private ParametersLoader() {
+    }
+
     public static String getInputDataProperty(Enum key) {
         return inputDataProperties != null && !inputDataProperties.isEmpty() ? inputDataProperties.getProperty(key.name()) : null;
     }
@@ -27,7 +33,7 @@ public class ParametersLoader {
         try (InputStream resourceStream = loader.getResourceAsStream(resoursePath)){
             propertiesName.load(resourceStream);
         } catch (IOException ioe) {
-            System.err.println(ioe.getMessage());
+            logger.error(ioe.getMessage());
         }
     }
 }

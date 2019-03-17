@@ -39,14 +39,6 @@ public class ScrollView extends BaseView {
         driver.executeScript(MOBILE_SCROLL, scrollObject);
     }
 
-//    public void scrollDownToTheElement(WebElement element) {
-//        logger.info("Scroll page down");
-//        Map<String, Object> scrollObject = new HashMap<>();
-//        scrollObject.put(DIRECTION, "down");
-//        scrollObject.put("element", element);
-//        driver.executeScript(MOBILE_SCROLL, scrollObject);
-//    }
-
     public void scroll(double start, double end) {
         TouchAction touchAction = new TouchAction(driver);
         Dimension size = driver.manage().window().getSize();
