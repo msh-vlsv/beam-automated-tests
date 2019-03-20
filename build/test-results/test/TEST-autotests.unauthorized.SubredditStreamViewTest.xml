@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="autotests.unauthorized.SubredditStreamViewTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-03-20T21:21:22" hostname="Marias-MacBook-Pro.local" time="134.177">
+  <properties/>
+  <testcase name="testOpeningSubredditStream(String)[1]" classname="autotests.unauthorized.SubredditStreamViewTest" time="17.649"/>
+  <testcase name="testOpeningSubredditStream(String)[2]" classname="autotests.unauthorized.SubredditStreamViewTest" time="19.372"/>
+  <testcase name="testOpeningSubredditStream(String)[3]" classname="autotests.unauthorized.SubredditStreamViewTest" time="25.623"/>
+  <testcase name="testOpeningSubredditStream(String)[4]" classname="autotests.unauthorized.SubredditStreamViewTest" time="35.423"/>
+  <testcase name="testOpeningSubredditStream(String)[5]" classname="autotests.unauthorized.SubredditStreamViewTest" time="36.099"/>
+  <system-out><![CDATA[2019-03-21 00:21:22 INFO  [BeamLogger] - *** [1] aww is started ***
+2019-03-21 00:21:22 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:21:23 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:21:24 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:21:27 INFO  [BeamLogger] - Click Subreddit aww
+2019-03-21 00:21:33 INFO  [BeamLogger] - Click Close button
+2019-03-21 00:21:36 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:21:39 INFO  [BeamLogger] - *** [1] aww is passed successfully ***
+2019-03-21 00:21:39 INFO  [BeamLogger] - ***
+2019-03-21 00:21:39 INFO  [BeamLogger] - *** [2] explainlikeimfive is started ***
+2019-03-21 00:21:39 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:21:40 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:21:42 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:21:46 WARN  [BeamLogger] - Subreddit explainlikeimfive not found: By.AccessibilityId: explainlikeimfive
+2019-03-21 00:21:46 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:21:48 INFO  [BeamLogger] - Click Subreddit explainlikeimfive
+2019-03-21 00:21:53 INFO  [BeamLogger] - Click Close button
+2019-03-21 00:21:56 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:21:58 INFO  [BeamLogger] - *** [2] explainlikeimfive is passed successfully ***
+2019-03-21 00:21:58 INFO  [BeamLogger] - ***
+2019-03-21 00:21:59 INFO  [BeamLogger] - *** [3] InternetIsBeautiful is started ***
+2019-03-21 00:21:59 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:22:00 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:22:02 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:22:06 WARN  [BeamLogger] - Subreddit InternetIsBeautiful not found: By.AccessibilityId: InternetIsBeautiful
+2019-03-21 00:22:06 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:22:10 WARN  [BeamLogger] - Subreddit InternetIsBeautiful not found: By.AccessibilityId: InternetIsBeautiful
+2019-03-21 00:22:10 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:22:12 INFO  [BeamLogger] - Click Subreddit InternetIsBeautiful
+2019-03-21 00:22:18 INFO  [BeamLogger] - Click Close button
+2019-03-21 00:22:21 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:22:24 INFO  [BeamLogger] - *** [3] InternetIsBeautiful is passed successfully ***
+2019-03-21 00:22:24 INFO  [BeamLogger] - ***
+2019-03-21 00:22:24 INFO  [BeamLogger] - *** [4] movies is started ***
+2019-03-21 00:22:24 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:22:25 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:22:27 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:22:31 WARN  [BeamLogger] - Subreddit movies not found: By.AccessibilityId: movies
+2019-03-21 00:22:31 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:22:35 WARN  [BeamLogger] - Subreddit movies not found: By.AccessibilityId: movies
+2019-03-21 00:22:35 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:22:39 WARN  [BeamLogger] - Subreddit movies not found: By.AccessibilityId: movies
+2019-03-21 00:22:39 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:22:41 INFO  [BeamLogger] - Click Subreddit movies
+2019-03-21 00:22:49 INFO  [BeamLogger] - Click Close button
+2019-03-21 00:22:56 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:22:59 INFO  [BeamLogger] - *** [4] movies is passed successfully ***
+2019-03-21 00:22:59 INFO  [BeamLogger] - ***
+2019-03-21 00:23:00 INFO  [BeamLogger] - *** [5] pics is started ***
+2019-03-21 00:23:00 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:23:02 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:23:04 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:23:08 WARN  [BeamLogger] - Subreddit pics not found: By.AccessibilityId: pics
+2019-03-21 00:23:08 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:23:11 WARN  [BeamLogger] - Subreddit pics not found: By.AccessibilityId: pics
+2019-03-21 00:23:11 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:23:15 WARN  [BeamLogger] - Subreddit pics not found: By.AccessibilityId: pics
+2019-03-21 00:23:15 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:23:20 WARN  [BeamLogger] - Subreddit pics not found: By.AccessibilityId: pics
+2019-03-21 00:23:20 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:23:23 INFO  [BeamLogger] - Click Subreddit pics
+2019-03-21 00:23:30 INFO  [BeamLogger] - Click Close button
+2019-03-21 00:23:33 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:23:36 INFO  [BeamLogger] - *** [5] pics is passed successfully ***
+2019-03-21 00:23:36 INFO  [BeamLogger] - ***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

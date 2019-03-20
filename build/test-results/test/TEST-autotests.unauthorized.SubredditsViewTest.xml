@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="autotests.unauthorized.SubredditsViewTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-03-20T20:59:05" hostname="Marias-MacBook-Pro.local" time="1211.958">
+  <properties/>
+  <testcase name="testAddingSubredditsToFavorites(List)[1]" classname="autotests.unauthorized.SubredditsViewTest" time="342.422"/>
+  <testcase name="testReversingFavouriteSubredditsOrder(List)[1]" classname="autotests.unauthorized.SubredditsViewTest" time="393.408"/>
+  <testcase name="testRemovingSubredditsFromFavorites(List)[1]" classname="autotests.unauthorized.SubredditsViewTest" time="401.036"/>
+  <system-out><![CDATA[2019-03-20 23:59:05 INFO  [BeamLogger] - *** [1] [DIY, GetMotivated, listentothis, science, sports, tifu] is started ***
+2019-03-20 23:59:05 INFO  [BeamLogger] - Check is Main view visible
+2019-03-20 23:59:06 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-20 23:59:07 INFO  [BeamLogger] - Click Subreddits button
+2019-03-20 23:59:09 INFO  [BeamLogger] - Click Edit button
+2019-03-20 23:59:13 WARN  [BeamLogger] - Subreddit DIY not found: By.AccessibilityId: DIY
+2019-03-20 23:59:13 INFO  [BeamLogger] - Scroll down
+2019-03-20 23:59:24 INFO  [BeamLogger] - Click Star of DIY subreddit
+2019-03-20 23:59:35 WARN  [BeamLogger] - Subreddit GetMotivated not found: By.AccessibilityId: GetMotivated
+2019-03-20 23:59:35 INFO  [BeamLogger] - Scroll down
+2019-03-20 23:59:47 INFO  [BeamLogger] - Click Star of GetMotivated subreddit
+2019-03-21 00:00:09 INFO  [BeamLogger] - Click Star of listentothis subreddit
+2019-03-21 00:00:20 WARN  [BeamLogger] - Subreddit science not found: By.AccessibilityId: science
+2019-03-21 00:00:20 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:00:24 WARN  [BeamLogger] - Subreddit science not found: By.AccessibilityId: science
+2019-03-21 00:00:24 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:00:37 INFO  [BeamLogger] - Click Star of science subreddit
+2019-03-21 00:01:00 INFO  [BeamLogger] - Click Star of sports subreddit
+2019-03-21 00:01:18 INFO  [BeamLogger] - Click Star of tifu subreddit
+2019-03-21 00:01:28 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:02:51 INFO  [BeamLogger] - Click Star of DIY subreddit
+2019-03-21 00:03:14 INFO  [BeamLogger] - Click Star of GetMotivated subreddit
+2019-03-21 00:03:34 INFO  [BeamLogger] - Click Star of listentothis subreddit
+2019-03-21 00:03:55 INFO  [BeamLogger] - Click Star of science subreddit
+2019-03-21 00:04:14 INFO  [BeamLogger] - Click Star of sports subreddit
+2019-03-21 00:04:35 INFO  [BeamLogger] - Click Star of tifu subreddit
+2019-03-21 00:04:44 INFO  [BeamLogger] - Click Done button
+2019-03-21 00:04:46 INFO  [BeamLogger] - *** [1] [DIY, GetMotivated, listentothis, science, sports, tifu] is passed successfully ***
+2019-03-21 00:04:46 INFO  [BeamLogger] - ***
+2019-03-21 00:05:23 INFO  [BeamLogger] - *** [1] [askscience, Jokes, LifeProTips, nottheonion, Showerthoughts, TwoXChromosomes] is started ***
+2019-03-21 00:05:23 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:05:24 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:05:26 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:05:28 INFO  [BeamLogger] - Click Edit button
+2019-03-21 00:05:40 INFO  [BeamLogger] - Click Star of askscience subreddit
+2019-03-21 00:05:54 WARN  [BeamLogger] - Subreddit Jokes not found: By.AccessibilityId: Jokes
+2019-03-21 00:05:54 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:05:59 WARN  [BeamLogger] - Subreddit Jokes not found: By.AccessibilityId: Jokes
+2019-03-21 00:05:59 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:06:12 INFO  [BeamLogger] - Click Star of Jokes subreddit
+2019-03-21 00:06:40 INFO  [BeamLogger] - Click Star of LifeProTips subreddit
+2019-03-21 00:06:52 WARN  [BeamLogger] - Subreddit nottheonion not found: By.AccessibilityId: nottheonion
+2019-03-21 00:06:52 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:07:07 INFO  [BeamLogger] - Click Star of nottheonion subreddit
+2019-03-21 00:07:24 WARN  [BeamLogger] - Subreddit Showerthoughts not found: By.AccessibilityId: Showerthoughts
+2019-03-21 00:07:24 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:07:38 INFO  [BeamLogger] - Click Star of Showerthoughts subreddit
+2019-03-21 00:07:57 INFO  [BeamLogger] - Click Star of TwoXChromosomes subreddit
+2019-03-21 00:08:08 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:08:11 INFO  [BeamLogger] - Drag Reorder button of TwoXChromosomes subreddit to Reorder button of askscience subreddit and drop it
+2019-03-21 00:08:22 INFO  [BeamLogger] - Drag Reorder button of Showerthoughts subreddit to Reorder button of askscience subreddit and drop it
+2019-03-21 00:08:32 INFO  [BeamLogger] - Drag Reorder button of nottheonion subreddit to Reorder button of askscience subreddit and drop it
+2019-03-21 00:08:43 INFO  [BeamLogger] - Drag Reorder button of LifeProTips subreddit to Reorder button of askscience subreddit and drop it
+2019-03-21 00:08:54 INFO  [BeamLogger] - Drag Reorder button of Jokes subreddit to Reorder button of askscience subreddit and drop it
+2019-03-21 00:09:04 INFO  [BeamLogger] - Click Done button
+2019-03-21 00:09:44 INFO  [BeamLogger] - Click Edit button
+2019-03-21 00:09:58 INFO  [BeamLogger] - Click Star of askscience subreddit
+2019-03-21 00:10:21 INFO  [BeamLogger] - Click Star of Jokes subreddit
+2019-03-21 00:10:42 INFO  [BeamLogger] - Click Star of LifeProTips subreddit
+2019-03-21 00:11:03 INFO  [BeamLogger] - Click Star of nottheonion subreddit
+2019-03-21 00:11:21 INFO  [BeamLogger] - Click Star of Showerthoughts subreddit
+2019-03-21 00:11:43 INFO  [BeamLogger] - Click Star of TwoXChromosomes subreddit
+2019-03-21 00:11:53 INFO  [BeamLogger] - Click Done button
+2019-03-21 00:11:55 INFO  [BeamLogger] - *** [1] [askscience, Jokes, LifeProTips, nottheonion, Showerthoughts, TwoXChromosomes] is passed successfully ***
+2019-03-21 00:11:55 INFO  [BeamLogger] - ***
+2019-03-21 00:12:36 INFO  [BeamLogger] - *** [1] [AskReddit, funny, Jokes, movies, philosophy, space] is started ***
+2019-03-21 00:12:36 INFO  [BeamLogger] - Check is Main view visible
+2019-03-21 00:12:37 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-03-21 00:12:39 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:12:43 INFO  [BeamLogger] - Click Edit button
+2019-03-21 00:13:00 INFO  [BeamLogger] - Click Star of AskReddit subreddit
+2019-03-21 00:13:15 WARN  [BeamLogger] - Subreddit funny not found: By.AccessibilityId: funny
+2019-03-21 00:13:15 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:13:29 INFO  [BeamLogger] - Click Star of funny subreddit
+2019-03-21 00:13:43 WARN  [BeamLogger] - Subreddit Jokes not found: By.AccessibilityId: Jokes
+2019-03-21 00:13:43 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:13:57 INFO  [BeamLogger] - Click Star of Jokes subreddit
+2019-03-21 00:14:10 WARN  [BeamLogger] - Subreddit movies not found: By.AccessibilityId: movies
+2019-03-21 00:14:10 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:14:24 INFO  [BeamLogger] - Click Star of movies subreddit
+2019-03-21 00:14:46 INFO  [BeamLogger] - Click Star of philosophy subreddit
+2019-03-21 00:14:58 WARN  [BeamLogger] - Subreddit space not found: By.AccessibilityId: space
+2019-03-21 00:14:58 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:15:13 INFO  [BeamLogger] - Click Star of space subreddit
+2019-03-21 00:15:24 INFO  [BeamLogger] - Click Subreddits button
+2019-03-21 00:15:40 INFO  [BeamLogger] - Click Star of AskReddit subreddit
+2019-03-21 00:16:04 INFO  [BeamLogger] - Click Star of funny subreddit
+2019-03-21 00:16:26 INFO  [BeamLogger] - Click Star of Jokes subreddit
+2019-03-21 00:16:46 INFO  [BeamLogger] - Click Star of movies subreddit
+2019-03-21 00:17:06 INFO  [BeamLogger] - Click Star of philosophy subreddit
+2019-03-21 00:17:30 INFO  [BeamLogger] - Click Star of space subreddit
+2019-03-21 00:17:56 WARN  [BeamLogger] - Subreddit funny not found: By.AccessibilityId: funny
+2019-03-21 00:17:56 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:18:12 WARN  [BeamLogger] - Subreddit Jokes not found: By.AccessibilityId: Jokes
+2019-03-21 00:18:12 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:18:30 WARN  [BeamLogger] - Subreddit movies not found: By.AccessibilityId: movies
+2019-03-21 00:18:30 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:18:59 WARN  [BeamLogger] - Subreddit space not found: By.AccessibilityId: space
+2019-03-21 00:18:59 INFO  [BeamLogger] - Scroll down
+2019-03-21 00:19:14 INFO  [BeamLogger] - Click Done button
+2019-03-21 00:19:16 INFO  [BeamLogger] - *** [1] [AskReddit, funny, Jokes, movies, philosophy, space] is passed successfully ***
+2019-03-21 00:19:16 INFO  [BeamLogger] - ***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

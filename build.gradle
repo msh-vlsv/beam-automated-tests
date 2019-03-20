@@ -38,6 +38,6 @@ dependencies {
 
 test {
     useJUnitPlatform() {
-        includeTags 'welcome'
+        includeTags 'welcome', 'subreddits', 'search'
     }
 }

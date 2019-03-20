@@ -53,8 +53,8 @@ public class ScrollView extends BaseView {
     }
 
     public void scrollDownToElement(BaseElement baseElement) {
-        int maxScrolls = 10;
-        while (!baseElement.isElementVisible(2) || maxScrolls > 0) {
+        int maxScrolls = 5;
+        while (!baseElement.isElementVisible(2) && maxScrolls > 0) {
             scrollDown();
             maxScrolls--;
         }

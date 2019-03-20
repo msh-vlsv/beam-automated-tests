@@ -6,6 +6,7 @@ public class AppManager {
     private MainHelper mainHelper = new MainHelper();
     private SearchHelper searchHelper = new SearchHelper();
     private SubredditsHelper subredditsHelper = new SubredditsHelper();
+    private SubredditStreamHelper subredditStreamHelper = new SubredditStreamHelper();
 
     public WelcomeHelper getWelcomeHelper() {
         return welcomeHelper;
@@ -21,5 +22,9 @@ public class AppManager {
 
     public SubredditsHelper getSubredditsHelper() {
         return subredditsHelper;
+    }
+
+    public SubredditStreamHelper getSubredditStreamHelper() {
+        return subredditStreamHelper;
     }
 }

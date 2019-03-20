@@ -1,6 +1,7 @@
 package autotests.unauthorized;
 
-import autotests.common.preconditions.UnauthorizedMainPrecondition;
+import autotests.argumentsprovider.SubredditsViewArgumentsProvider;
+import autotests.common.preconditions.UnauthorizedSubredditsPrecondition;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Tag;
@@ -11,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SubredditsViewTest extends UnauthorizedMainPrecondition {
+public class SubredditsViewTest extends UnauthorizedSubredditsPrecondition {
 
     @ParameterizedTest
     @ArgumentsSource(SubredditsViewArgumentsProvider.class)

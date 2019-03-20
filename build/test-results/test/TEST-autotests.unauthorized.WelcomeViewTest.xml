@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="autotests.unauthorized.WelcomeViewTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-20T21:19:40" hostname="Marias-MacBook-Pro.local" time="70.372">
+  <properties/>
+  <testcase name="testAreHeadlineAndMessageCorrect()" classname="autotests.unauthorized.WelcomeViewTest" time="53.957"/>
+  <testcase name="testIsLandingPageDisplayedOnlyOnce()" classname="autotests.unauthorized.WelcomeViewTest" time="16.413"/>
+  <system-out><![CDATA[2019-03-21 00:19:40 INFO  [BeamLogger] - *** Test are headline and message correct is started ***
+2019-03-21 00:19:40 INFO  [BeamLogger] - Check is Welcome view visible
+2019-03-21 00:19:50 WARN  [BeamLogger] - Welcome view headline not found: By.AccessibilityId: Welcome to Beam 2
+2019-03-21 00:19:50 INFO  [BeamLogger] - Reinstall app
+2019-03-21 00:20:33 INFO  [BeamLogger] - *** Test are headline and message correct is passed successfully ***
+2019-03-21 00:20:33 INFO  [BeamLogger] - ***
+2019-03-21 00:20:34 INFO  [BeamLogger] - *** Test is Welcome page displayed only once is started ***
+2019-03-21 00:20:34 INFO  [BeamLogger] - Check is Welcome view visible
+2019-03-21 00:20:35 INFO  [BeamLogger] - Terminate app
+2019-03-21 00:20:36 INFO  [BeamLogger] - Launch app
+2019-03-21 00:20:39 INFO  [BeamLogger] - Check is Welcome view visible
+2019-03-21 00:20:49 WARN  [BeamLogger] - Welcome view headline not found: By.AccessibilityId: Welcome to Beam 2
+2019-03-21 00:20:49 INFO  [BeamLogger] - *** Test is Welcome page displayed only once is passed successfully ***
+2019-03-21 00:20:49 INFO  [BeamLogger] - ***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

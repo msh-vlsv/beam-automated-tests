@@ -1,13 +1,19 @@
 package appmanager;
 
+import io.qameta.allure.Step;
 import ui.appviews.main.search.SearchView;
 
 public class SearchHelper extends HelperBase {
 
     private SearchView searchView = new SearchView();
 
+    public boolean isSearchViewVisible() {
+        return searchView.isPageVisible();
+    }
+
+    @Step("Type Search query")
     public void typeSearchQuery(String searchQuery) {
-        searchView.getSearchField().type(searchQuery);
+        searchView.getSearchField().clearAndType(searchQuery);
     }
 
     public String getSearchSubredditsSuggestionText() {

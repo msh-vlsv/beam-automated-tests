@@ -6,6 +6,8 @@ public class UnauthorizedSearchPrecondition extends UnauthorizedMainPrecondition
 
     @BeforeEach
     public void openSearchView() {
-        APP_MANAGER.getMainHelper().clickSearchButton();
+        if (!APP_MANAGER.getSearchHelper().isSearchViewVisible()) {
+            APP_MANAGER.getMainHelper().clickSearchButton();
+        }
     }
 }

@@ -18,6 +18,10 @@ public class SubredditsHelper extends HelperBase {
         return subredditsView.getListOfSubreddits().getLabels();
     }
 
+    public boolean isSubredditsViewVisible() {
+        return subredditsView.isPageVisible() && subredditsView.getEditButton().isElementVisible();
+    }
+
     @Step("Click Edit button")
     public void clickEditButton() {
         subredditsView.getEditButton().click();
@@ -37,6 +41,12 @@ public class SubredditsHelper extends HelperBase {
         star.click();
     }
 
+    public void addSubredditsToFavorites(List<String> labels) {
+        for (String label : labels) {
+            addSubredditToFavorites(label);
+        }
+    }
+
     @Step("Remove subreddit {label} from favorites")
     public void removeSubredditFromFavorites(String label) {
         SubredditButton subredditButton = subredditsView.getListOfSubreddits().getSubredditButton(label);
@@ -44,12 +54,6 @@ public class SubredditsHelper extends HelperBase {
         Star star = subredditButton.getStar();
         assertEquals("tableview star filled", star.getLabel());
         star.click();
-    }
-
-    public void addSubredditsToFavorites(List<String> labels) {
-        for (String label : labels) {
-            addSubredditToFavorites(label);
-        }
     }
 
     public void removeSubredditsFromFavorites(List<String> labels) {
@@ -72,6 +76,13 @@ public class SubredditsHelper extends HelperBase {
         SubredditButton destinationSubredditButton = subredditsView.getListOfSubreddits().getSubredditButton(destinationLabel);
         ReorderButton destinationReorderButton = destinationSubredditButton.getReorderButton();
         sourceReorderButton.dragAndDrop(destinationReorderButton);
+    }
+
+    @Step("Click subreddit {label} button")
+    public void clickSubredditButton(String label) {
+        SubredditButton subredditButton = subredditsView.getListOfSubreddits().getSubredditButton(label);
+        subredditsView.scrollDownToElement(subredditButton);
+        subredditButton.click();
     }
 
 }
