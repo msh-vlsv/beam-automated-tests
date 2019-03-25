@@ -1,7 +1,6 @@
 package autotests.common.preconditions;
 
 import autotests.common.TestBase;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
 import static utils.MobileCommands.reinstallApp;

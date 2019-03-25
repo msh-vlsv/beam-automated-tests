@@ -1,6 +1,5 @@
 package autotests.common.preconditions;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
 import static utils.MobileCommands.restartApp;
