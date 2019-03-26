@@ -9,7 +9,7 @@ import ui.common.views.ScrollView;
 
 public class SearchView extends ScrollView {
 
-    private static final String NAME = "Search field";
+    private static final String NAME = "Search view";
 
     private SearchField searchField = new SearchField();
     private SearchSubredditsSuggestion searchSubredditsSuggestion = new SearchSubredditsSuggestion();

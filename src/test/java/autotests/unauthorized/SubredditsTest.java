@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static utils.InputPropertiesConstants.UNAUTHORIZED_SUBREDDITS_NUMBER;
 import static utils.ParametersLoader.getInputDataProperty;
 
-public class SubredditsViewTest extends UnauthorizedSubredditsPrecondition {
+public class SubredditsTest extends UnauthorizedSubredditsPrecondition {
 
     private static final int ARGUMENTS_COUNT = 6;
 

@@ -8,7 +8,7 @@ public class SearchHelper extends HelperBase {
     private SearchView searchView = new SearchView();
 
     public boolean isSearchViewVisible() {
-        return searchView.isPageVisible();
+        return searchView.isViewVisible();
     }
 
     @Step("Type Search query")

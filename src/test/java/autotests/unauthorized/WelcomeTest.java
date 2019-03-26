@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static utils.MobileCommands.restartApp;
 
-public class WelcomeViewTest extends WelcomePrecondition {
+public class WelcomeTest extends WelcomePrecondition {
 
     private static final String HEADLINE = "Welcome to Beam 2";
     private static final String MESSAGE = "Explore reddit in the best possible way.\nConnect your reddit account, or start exploring without account.";

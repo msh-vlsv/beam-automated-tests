@@ -8,17 +8,17 @@ public abstract class BaseView {
 
     private Logger logger = BeamLogger.getInstance().getLogger();
 
-    private BaseElement pageAnchorElement;
+    private BaseElement viewAnchorElement;
     private String name;
 
-    public BaseView(BaseElement pageAnchorElement, String name) {
-        this.pageAnchorElement = pageAnchorElement;
+    public BaseView(BaseElement viewAnchorElement, String name) {
+        this.viewAnchorElement = viewAnchorElement;
         this.name = name;
     }
 
-    public boolean isPageVisible() {
+    public boolean isViewVisible() {
         logger.info("Check is " + getName() + " visible");
-        return pageAnchorElement.isElementVisible();
+        return viewAnchorElement.isElementVisible();
     }
 
     public String getName() {

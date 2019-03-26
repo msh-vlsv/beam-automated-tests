@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SearchViewTest extends UnauthorizedSearchPrecondition {
+public class SearchTest extends UnauthorizedSearchPrecondition {
 
     private static final String SEARCH_QUERY = "test";
 

@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static utils.InputPropertiesConstants.UNAUTHORIZED_SUBREDDITS_NUMBER;
 import static utils.ParametersLoader.getInputDataProperty;
 
-public class SubredditStreamViewTest extends UnauthorizedSubredditsPrecondition {
+public class SubredditStreamTest extends UnauthorizedSubredditsPrecondition {
 
     private static Stream<Arguments> subredditIndexesProvider() {
         int subredditsCount = Integer.parseInt(getInputDataProperty(UNAUTHORIZED_SUBREDDITS_NUMBER));

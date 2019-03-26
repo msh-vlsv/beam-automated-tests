@@ -1,0 +1,1 @@
+{"uuid":"e88eee8e-9055-4d6f-b980-7f84c400d660","historyId":"4b7cd465472a437206c041ae81fb0bba","labels":[{"name":"suite","value":"autotests.authorized.LoginTest"},{"name":"package","value":"autotests.authorized.LoginTest"}],"name":"testLogin()","status":"passed","stage":"finished","start":1553590736028,"stop":1553590825467}

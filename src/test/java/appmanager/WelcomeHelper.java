@@ -8,7 +8,7 @@ public class WelcomeHelper extends HelperBase {
     private WelcomeView landingPage = new WelcomeView();
 
     public boolean isLandingPageVisible() {
-        return landingPage.isPageVisible();
+        return landingPage.isViewVisible();
     }
 
     public String getLandingPageHeadline() {

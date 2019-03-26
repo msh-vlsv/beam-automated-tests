@@ -8,7 +8,7 @@ public class MainHelper extends HelperBase {
     private MainView mainView = new MainView();
 
     public boolean isMainViewVisible() {
-        return mainView.isPageVisible();
+        return mainView.isViewVisible();
     }
 
     @Step("Click Subreddits button")

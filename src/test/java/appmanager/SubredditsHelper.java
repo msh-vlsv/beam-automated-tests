@@ -19,7 +19,7 @@ public class SubredditsHelper extends HelperBase {
     }
 
     public boolean isSubredditsViewVisible() {
-        return subredditsView.isPageVisible() && subredditsView.getEditButton().isElementVisible();
+        return subredditsView.isViewVisible() && subredditsView.getEditButton().isElementVisible();
     }
 
     @Step("Click Edit button")
