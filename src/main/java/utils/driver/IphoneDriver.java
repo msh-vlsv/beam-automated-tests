@@ -28,7 +28,7 @@ public abstract class IphoneDriver {
 
     protected void setCommonDesiredCapabilities() {
         capabilities.setCapability(PLATFORM_NAME, "iOS");
-        capabilities.setCapability(AUTOMATION_NAME, "Appium");
+        capabilities.setCapability(AUTOMATION_NAME, "XCUITest");
         capabilities.setCapability(XCODE_ORIG_ID, "7A7F3AW7RP");
         capabilities.setCapability(XCODE_SIGNING_ID, "iPhone Developer");
         capabilities.setCapability(NO_RESET, "true");

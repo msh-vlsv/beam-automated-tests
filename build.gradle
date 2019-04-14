@@ -37,7 +37,13 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform() {
-        includeTags 'welcome', 'subreddits', 'search'
+    useJUnitPlatform()
+}
+
+task smoke(type: Test){
+    description("This will run a subset of tests by tag")
+    useJUnitPlatform(){
+        includeTags 'welcome'
+        excludeTags 'slow'
     }
 }

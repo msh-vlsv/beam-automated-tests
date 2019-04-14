@@ -2,41 +2,360 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb7277a-5c1f-4f82-bd10-dabd83e94b11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/LoginWebView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/AllowButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/LoginButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/PasswordField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/RememberMeCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/UsernameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/Username.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appmanager/LoginHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/authorized/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/PasscodeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/BackButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/ChangePasscodeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/RequirePasscodeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/SettingsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/TurnPasscodeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/EnterPasscodeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterNewPasscodeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterPasscodeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterYourBeamPasscodeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/ReenterPasscodeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/KeyButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/SettingsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/settings/SettingsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/CloseButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/PasscodeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appmanager/PasscodeHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appmanager/SettingsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/PasscodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/AssetsPickerControllerAlbumEmptyView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/AssetsPickerControllerAlbumEmptyView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/AssetsPickerControllerAuthorizationEmptyView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/AssetsPickerControllerAuthorizationEmptyView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/LaunchScreen.storyboardc/UITabBarController-lU2-L6-sCL.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/LaunchScreen.storyboardc/UITabBarController-lU2-L6-sCL.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/LaunchScreen.storyboardc/jaD-wj-S7P-view-3Iy-MM-HPV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/LaunchScreen.storyboardc/jaD-wj-S7P-view-3Iy-MM-HPV.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/4yP-RM-RcD-view-R5j-ed-N9L.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/4yP-RM-RcD-view-R5j-ed-N9L.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/InboxViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/InboxViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/ProfileViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/ProfileViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/TNj-7g-ypy-view-FQG-gp-URq.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/TNj-7g-ypy-view-FQG-gp-URq.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/UIViewController-VOG-hM-D0F.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/UIViewController-VOG-hM-D0F.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/VOG-hM-D0F-view-Zdx-Sg-ikL.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/VOG-hM-D0F-view-Zdx-Sg-ikL.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/XuF-DX-9dg-view-yKK-5s-lgk.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/XuF-DX-9dg-view-yKK-5s-lgk.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/ZIw-Xe-cIX-view-v6Z-1g-9e8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/ZIw-Xe-cIX-view-v6Z-1g-9e8.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/compose-message.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/compose-message.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/fDT-vt-vSC-view-PPj-zA-aXm.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/fDT-vt-vSC-view-PPj-zA-aXm.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/fuX-O9-csx-view-IWn-hF-aKW.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/fuX-O9-csx-view-IWn-hF-aKW.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/gnQ-sn-tfM-view-PLm-oP-rHB.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/gnQ-sn-tfM-view-PLm-oP-rHB.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/inbox.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/inbox.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messageConversation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messageConversation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messages-blank-view.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messages-blank-view.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messages-navigation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/messages-navigation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/postSearchResults.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/postSearchResults.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/profile-navigation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/profile-navigation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/qzA-2X-81r-view-zv2-Dz-hM0.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/qzA-2X-81r-view-zv2-Dz-hM0.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/search-navigation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/search-navigation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/subscriptions-navigation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/subscriptions-navigation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/t4c-bZ-4SU-view-Ptr-Nu-itj.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/t4c-bZ-4SU-view-Ptr-Nu-itj.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/tabbarcontroller.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Base.lproj/Main.storyboardc/tabbarcontroller.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/BeamEmptyView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/BeamEmptyView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CommentCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CommentCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/LtJ-Y0-e9o-view-9Ae-4u-7XE.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/LtJ-Y0-e9o-view-9Ae-4u-7XE.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/Qh6-8Z-d46-view-jIi-m5-T5s.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/Qh6-8Z-d46-view-jIi-m5-T5s.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/UINavigationController-fKJ-qF-Se6.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/UINavigationController-fKJ-qF-Se6.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/comments.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/comments.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/compose.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Comments.storyboardc/compose.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CommentsFooterView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CommentsFooterView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CommentsHeaderView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CommentsHeaderView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/ContinueCommentThreadCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/ContinueCommentThreadCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/Ta6-6q-g1p-view-EgG-yi-kcm.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/Ta6-6q-g1p-view-EgG-yi-kcm.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/UINavigationController-dx1-2Y-ZgK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/UINavigationController-dx1-2Y-ZgK.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/Z5s-fY-Gya-view-gsV-be-UUX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/Z5s-fY-Gya-view-gsV-be-UUX.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-image-post.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-image-post.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-link-post.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-link-post.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-text-post.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/create-text-post.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/dLr-yM-hEq-view-YOp-T5-r36.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/dLr-yM-hEq-view-YOp-T5-r36.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/oOZ-jf-LE6-view-lcp-ah-k3m.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/CreatePost.storyboardc/oOZ-jf-LE6-view-lcp-ah-k3m.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/EditMultireddit.storyboardc/UINavigationController-PUj-nj-3G3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/EditMultireddit.storyboardc/UINavigationController-PUj-nj-3G3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/EditMultireddit.storyboardc/onf-vA-aVq-view-Uyi-OU-hFM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/EditMultireddit.storyboardc/onf-vA-aVq-view-Uyi-OU-hFM.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/AWKGallery" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/AWKGallery" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AWKGallery.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/AssetsPickerController" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/AssetsPickerController" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/EmptyAlbumEmptyView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/EmptyAlbumEmptyView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/objects-9.1+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/objects-9.1+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/8mt-VU-j1L-view-gFg-2n-3Y2.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/objects-9.1+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/objects-9.1+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/9Gi-Qm-TLh-view-ATt-cd-ZDg.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/objects-9.1+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/objects-9.1+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/UINavigationController-PU9-6o-hiP.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/objects-9.1+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/objects-9.1+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/albums-view.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/objects-9.1+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/objects-9.1+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/Interface.storyboardc/assets-grid.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/NoAccessEmptyView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/NoAccessEmptyView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/AssetsPickerController.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/CherryKit" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/CherryKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/CherryKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/ImgurKit" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/ImgurKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/ImgurKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/JLRoutes" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/JLRoutes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/JLRoutes.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~ipad.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~ipad.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphonelandscape.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphonelandscape.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphoneportrait.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/MPTakeoverNotificationViewController~iphoneportrait.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/Mixpanel" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/Mixpanel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Mixpanel.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/Ocarina" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/Ocarina" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Ocarina.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/Pods_beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeDirectory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeRequirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Pods_beam.framework/_CodeSignature/CodeSignature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/RedditMarkdownKit" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/RedditMarkdownKit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/RedditMarkdownKit.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/SDWebImage" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/SDWebImage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Snoo" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Snoo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 14.omo" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/Snoo.momd/Snoo 14.omo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Snoo.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/TTTAttributedLabel" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/TTTAttributedLabel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/TTTAttributedLabel.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/Trekker" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/Trekker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/Trekker.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftAVFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftAVFoundation.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCore.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreAudio.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreAudio.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreData.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreData.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreFoundation.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreGraphics.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreGraphics.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreImage.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreImage.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreLocation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreLocation.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreMedia.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftCoreMedia.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftDarwin.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftDarwin.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftDispatch.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftDispatch.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftFoundation.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftFoundation.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftGLKit.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftGLKit.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftMetal.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftMetal.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftModelIO.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftModelIO.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftObjectiveC.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftObjectiveC.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftPhotos.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftPhotos.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftQuartzCore.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftQuartzCore.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftSpriteKit.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftSpriteKit.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftSwiftOnoneSupport.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftSwiftOnoneSupport.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftUIKit.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftUIKit.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftos.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftos.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftsimd.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Frameworks/libswiftsimd.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/GalleryPostBottomView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/GalleryPostBottomView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/ImgurGalleryToolbar.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/ImgurGalleryToolbar.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/LoadMoreCommentsCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/LoadMoreCommentsCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MarkdownActionBar.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MarkdownActionBar.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/5Ip-00-9f3-view-CUw-KB-1KC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/5Ip-00-9f3-view-CUw-KB-1KC.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/Nwk-Me-EL8-view-6ug-8t-eg6.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/Nwk-Me-EL8-view-6ug-8t-eg6.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/PostMediaOverview.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/PostMediaOverview.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/UIViewController-5Ip-00-9f3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/UIViewController-5Ip-00-9f3.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/gallery-album.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/gallery-album.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/imgur-gallery-album.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/imgur-gallery-album.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/lsF-Vs-Sf6-view-ymy-FY-ydX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/lsF-Vs-Sf6-view-ymy-FY-ydX.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/zff-jj-IHM-view-sOh-mS-ryb.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MediaOverview.storyboardc/zff-jj-IHM-view-sOh-mS-ryb.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/MultiredditSubTableViewCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/MultiredditSubTableViewCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/NYT-Pj-dn8-view-cGZ-mF-Ha6.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/NYT-Pj-dn8-view-cGZ-mF-Ha6.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/Pff-zM-28Z-view-6MR-zM-wvs.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/Pff-zM-28Z-view-6MR-zM-wvs.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/enter-passcode.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/enter-passcode.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/start-enter-passcode.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Passcode.storyboardc/start-enter-passcode.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostCommentPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostCommentPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostImageCollectionPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostImageCollectionPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostImagePartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostImagePartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostMetaDataPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostMetaDataPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostSelfTextPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostSelfTextPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostTitlePartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostTitlePartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostTitleWithThumbnailPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostTitleWithThumbnailPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostToolbarPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostToolbarPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostURLPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostURLPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/PostVideoURLPartCell.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/PostVideoURLPartCell.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/2GN-uX-iXC-view-hrz-4y-Uwy.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/2GN-uX-iXC-view-hrz-4y-Uwy.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/ProfileNavigationController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/ProfileNavigationController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/ProfileViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Profile.storyboardc/ProfileViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/ReplyBarView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/ReplyBarView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Report.storyboardc/LGx-8L-1Ta-view-DyJ-6W-GhV.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Report.storyboardc/LGx-8L-1Ta-view-DyJ-6W-GhV.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Report.storyboardc/UINavigationController-8MO-fO-nhL.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Report.storyboardc/UINavigationController-8MO-fO-nhL.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.bundle/Acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.bundle/Acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.bundle/Root.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.bundle/Root.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Al3-n2-2pL-view-Rko-Cj-qia.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Al3-n2-2pL-view-Rko-Cj-qia.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/CUg-4b-FvZ-view-MR0-vK-AAA.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/CUg-4b-FvZ-view-MR0-vK-AAA.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Ggw-bE-CJO-view-dkF-0F-87s.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Ggw-bE-CJO-view-dkF-0F-87s.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/HC8-cJ-i8l-view-4Mz-pv-j1W.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/HC8-cJ-i8l-view-4Mz-pv-j1W.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Qhk-u1-Y0V-view-mlq-1D-1hB.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/Qhk-u1-Y0V-view-mlq-1D-1hB.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/TAS-aH-TeY-view-YEc-tr-4BW.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/TAS-aH-TeY-view-YEc-tr-4BW.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/UINavigationController-LSR-2k-R5W.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/UINavigationController-LSR-2k-R5W.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/UITableViewController-WVN-2I-QXw.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/UITableViewController-WVN-2I-QXw.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/WVN-2I-QXw-view-uR2-XA-Buy.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/WVN-2I-QXw-view-uR2-XA-Buy.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/ZPi-GS-LC1-view-d5i-7E-y0k.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/ZPi-GS-LC1-view-d5i-7E-y0k.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/about.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/about.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/bVf-Go-qjZ-view-SsY-wu-Raz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/bVf-Go-qjZ-view-SsY-wu-Raz.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/browser.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/browser.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/change-language.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/change-language.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/display-options.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/display-options.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/donateThankYouView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/donateThankYouView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/donation.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/donation.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/font-size-options.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/font-size-options.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/gEC-hn-Gk8-view-9gb-jU-UbZ.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/gEC-hn-Gk8-view-9gb-jU-UbZ.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/imgur-manager.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/imgur-manager.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/lb1-FA-RCr-view-Ehv-h1-8mz.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/lb1-FA-RCr-view-Ehv-h1-8mz.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/notifications.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/notifications.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/open-app-on.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/open-app-on.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/passcode.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/passcode.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/settings.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/settings.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/t2y-La-9nI-view-ofb-5H-2an.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/t2y-La-9nI-view-ofb-5H-2an.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/tUb-vG-AQw-view-2LA-8P-Hes.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Settings.storyboardc/tUb-vG-AQw-view-2LA-8P-Hes.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Stream.storyboardc/UXM-2N-Gua-view-mZy-wg-cEX.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Stream.storyboardc/UXM-2N-Gua-view-mZy-wg-cEX.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Stream.storyboardc/subredditstream.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Stream.storyboardc/subredditstream.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/3EN-LO-9Po-view-4Jy-6W-wjS.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/3EN-LO-9Po-view-4Jy-6W-wjS.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/GmU-Jo-nbU-view-hjV-vQ-PxT.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/GmU-Jo-nbU-view-hjV-vQ-PxT.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/JUm-be-1Fv-view-Jon-BD-53I.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/JUm-be-1Fv-view-Jon-BD-53I.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/M3M-x8-kEJ-view-ptF-Q0-mtk.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/M3M-x8-kEJ-view-ptF-Q0-mtk.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/MultiredditSubsViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/MultiredditSubsViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/SubredditInfoViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/SubredditInfoViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UINavigationController-8UG-9P-Mv8.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UINavigationController-8UG-9P-Mv8.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UINavigationController-Voh-Fy-whU.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UINavigationController-Voh-Fy-whU.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UITableViewController-VHj-hT-pG9.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UITableViewController-VHj-hT-pG9.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UIViewController-GmU-Jo-nbU.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/UIViewController-GmU-Jo-nbU.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/VHj-hT-pG9-view-j2S-HS-EQq.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/VHj-hT-pG9-view-j2S-HS-EQq.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/Yx9-cL-kUQ-view-Onc-gu-80K.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/Yx9-cL-kUQ-view-Onc-gu-80K.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/gUW-bb-xi3-view-l5W-ZV-nTK.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/gUW-bb-xi3-view-l5W-ZV-nTK.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/subredditSearchResults.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/subredditSearchResults.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/subreddittabbar.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/subreddittabbar.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/vcS-gS-6ge-view-An6-Ya-ffA.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/Subreddit.storyboardc/vcS-gS-6ge-view-An6-Ya-ffA.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditList.storyboardc/UITableViewController-fHP-ie-UAE.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditList.storyboardc/UITableViewController-fHP-ie-UAE.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditList.storyboardc/fHP-ie-UAE-view-Hdm-Zo-eef.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditList.storyboardc/fHP-ie-UAE-view-Hdm-Zo-eef.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditTitleView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/SubredditTitleView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/TableViewHeaderBannerView.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/TableViewHeaderBannerView.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/WebViewController.nib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/WebViewController.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/beam" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/biem.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/biem.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/downvote.caf" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/downvote.caf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/libswiftRemoteMirror.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/libswiftRemoteMirror.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/stars_level_0.sks" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/stars_level_0.sks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/stars_level_1.sks" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/stars_level_1.sks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/tap.caf" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/tap.caf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Beam_simulator.app/upvote.caf" beforeDir="false" afterPath="$PROJECT_DIR$/app/Beam_simulator.app/upvote.caf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/1081601b-384a-4d14-ab55-ffbbd3d7ab13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/18894858-3c40-49c8-9a14-42afc5e302a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/1da5fce5-2623-46b3-a822-5888386557c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/1e6665e1-91c5-4789-86cb-2e3489e64e3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/22b97800-6c3a-4f5e-9a9c-fa6db8d591b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/23c450e4-b68a-42aa-8d74-37004634234c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3258af2d-5799-4218-a963-7b2243c4a14b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/35c411e4-3db6-4e1a-a560-56f61c90fc84-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3819490d-4f16-4d0b-95e0-38c18e51dfa3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/39fddf60-2be6-45ed-bda0-f09d09f26583-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3bf85fae-eb5f-425a-a551-727393932f81-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3d12170b-7001-4eeb-bc9a-4a2e06f714f5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3f598c8e-7f8e-45aa-9748-3a9a048d37dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/40eb9b4c-ae15-45be-b5c3-25f16ea19761-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/4166b210-e1e6-46a2-9361-a6a26ab49509-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/462bc03c-a802-46a4-bcf8-7b883098d80a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/584c6808-3288-416b-994f-04c298ec2b77-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/5b981316-164e-4b97-b134-136f6d0a0d47-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/665b6d0d-ff27-4a3c-a1a1-42dcee1a8658-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/6dd6127b-7f8e-4e01-83ab-3102cf98cdd0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/7759e92c-dbe9-47d2-920b-46ca881c93a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/7af4bfba-7af9-4ed2-9c79-c40f9fb84f58-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/7fcdcc90-b11a-4a45-8690-6d80b8a24eeb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/83c7fa01-cbd7-4b04-88c6-58f729886eb0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/87909a44-50d4-4de0-b5ce-4a931237f4a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/8d31332d-a27d-47db-9b71-7a4c31b736c2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a8007e05-8196-4e86-b1cd-4cfbe68ca16a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/a98cfb90-2dd1-4fa2-8826-203cdf9c675a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/ace8155f-3785-4418-b136-b7b5c9c84e9b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/b6b77b54-cafe-4715-85d7-5801cef7f99e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/b990029f-f65c-4df1-a7d2-09547acd633f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/cf6ce360-752d-4d0d-9afe-dd15fcab467b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d840d64c-acf2-4158-aa5c-717309fe1b1d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/dc2e69c2-6635-4976-b2df-36da0e9afa14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/e37a4eaa-df84-417e-9398-5ed0bb30f5fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/e88eee8e-9055-4d6f-b980-7f84c400d660-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/eac4bc0c-1a75-48df-a0b6-8c72993ede9c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f0b1796b-4864-4cf1-9782-20353e2ac715-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f6196e20-52c0-47ce-a04e-e78c10358b26-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fa68d20e-7913-4744-a11e-34b25f41a8d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fb32531d-2efb-4974-8cac-320bdebb44c5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/fef07524-4f8c-4fbd-8511-5198ced2046e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/search/SearchView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/appviews/main/search/SearchView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ui/common/views/BaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ui/common/views/BaseView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/utils/InputPropertiesConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/utils/InputPropertiesConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/AppManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/MainHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/MainHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/SearchHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/SearchHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/SubredditsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/SubredditsHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/appmanager/WelcomeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/appmanager/WelcomeHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/argumentsprovider/SubredditStreamViewArgumentsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/argumentsprovider/SubredditsViewArgumentsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/common/preconditions/UnauthorizedSubredditsPrecondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/autotests/common/preconditions/UnauthorizedSubredditsPrecondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/common/preconditions/WelcomePrecondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/autotests/common/preconditions/WelcomePrecondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/SearchViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/SubredditStreamViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/SubredditsViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/autotests/unauthorized/WelcomeViewTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/logs/beamLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/logs/beamLogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/search/SearchView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/main/search/SearchView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/common/views/BaseView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/common/views/BaseView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/inputData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/inputData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/LoginWebView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/LoginWebView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/AllowButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/AllowButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/LoginButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/LoginButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/RememberMeCheckbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/login/elements/RememberMeCheckbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ui/appviews/profile/ProfileView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ui/appviews/profile/ProfileView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8PlusSimulatorDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/Iphone8PlusSimulatorDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/utils/driver/IphoneDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/utils/driver/IphoneDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/AppManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/MainHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/MainHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/SearchHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/SearchHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/SubredditsHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/SubredditsHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/WelcomeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/WelcomeHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/SearchViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/SubredditStreamViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/SubredditsViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/unauthorized/WelcomeViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/common/views/BaseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/common/views/BaseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/appmanager/ProfileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/appmanager/ProfileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/autotests/authorized/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/autotests/authorized/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SubredditsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SubredditsButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/WelcomeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/WelcomeHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditStreamViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -98,29 +417,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/PasscodeHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="690">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SettingsHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="40" column="81" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="81" />
+            <state relative-caret-position="135">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/PasscodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,10 +460,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/authorized/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SubredditsButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="90">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,64 +481,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/LoginHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Keyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="351">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/EnterPasscodeView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/KeyButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/Username.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,40 +532,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/SubredditFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/ReorderButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/ListOfSubreddits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/SubredditButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddit/Star.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/Star.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ListOfElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/ParametersLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/MobileCommands.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/subredditstream/SubredditStreamView.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditStreamHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditStreamViewArgumentsProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedMainPrecondition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewArgumentsProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSubredditsPrecondition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/WelcomePrecondition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchViewTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSearchPrecondition.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/argumentsprovider/SubredditsViewArgumentsProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/argumentsprovider/SubredditStreamViewArgumentsProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditStreamViewTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/UsernameField.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/search/SearchView.java" />
@@ -268,10 +545,44 @@
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/AllowButton.java" />
         <option value="$PROJECT_DIR$/src/test/java/appmanager/LoginHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/Username.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/autotests/authorized/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/testsuite/WelcomeSuite.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/SettingsButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/PasscodeButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/settings/SettingsView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/TurnPasscodeOnButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/ChangePasscodeButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/RequirePasscodeButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/TurnPasscodeButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/Title.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/SettingsButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/Title.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/AppManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/driver/BeamDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/ReenterPasscodeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterYourBeamPasscodeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterNewPasscodeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterPasscodeField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/EnterPasscodeView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/KeyButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Key.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/CloseButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/BackButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/passcode/PasscodeView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/SettingsHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appmanager/PasscodeHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/autotests/unauthorized/PasscodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SubredditsButton.java" />
       </list>
     </option>
   </component>
@@ -293,7 +604,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -356,7 +666,7 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="appviews" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beam" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +677,7 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="appviews" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbar" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,8 +688,104 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="appviews" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="subreddits" type="462c0819:PsiDirectoryNode" />
+              <item name="passcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="passcode" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="passcode" type="462c0819:PsiDirectoryNode" />
+              <item name="enterpasscode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="passcode" type="462c0819:PsiDirectoryNode" />
+              <item name="enterpasscode" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="passcode" type="462c0819:PsiDirectoryNode" />
+              <item name="enterpasscode" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="keyboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="appviews" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beam" type="b2602c69:ProjectViewProjectNode" />
@@ -388,6 +794,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beam" type="b2602c69:ProjectViewProjectNode" />
@@ -432,6 +847,15 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="autotests" type="462c0819:PsiDirectoryNode" />
+              <item name="authorized" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beam-automated-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autotests" type="462c0819:PsiDirectoryNode" />
               <item name="unauthorized" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -445,30 +869,31 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553624811292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555270009028" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ui.appviews.passcode.elements" />
+      <recent name="ui.appviews.passcode.enterpasscode.elements" />
+      <recent name="ui.appviews.settings.elements" />
+      <recent name="ui.appviews.login.elements" />
+      <recent name="appmanager" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddittest" />
       <recent name="$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits" />
       <recent name="$PROJECT_DIR$/src/main/java/utils/driver_v2" />
       <recent name="$PROJECT_DIR$/src/main/java/ui" />
       <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ui.appviews.login.elements" />
-      <recent name="appmanager" />
-      <recent name="autotests.unauthorized" />
-      <recent name="ui.appviews.main.subreddits.elements.reorderbuttons" />
-      <recent name="ui.appviews.main.subreddits.elements.subreddits" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,34 +908,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.madeawkward.beam.beam.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="autotests.authorized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="autotests.authorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.authorized.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JUnit.PasscodeTest.testEnablePasscode">
+    <configuration name="beam-automated-tests [smoke]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="smoke" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="SubredditStreamTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.madeawkward.beam.beam.test" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="autotests.unauthorized.SubredditStreamTest" />
-        <pattern testClass="autotests.unauthorized.SubredditsTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubredditStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasscodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.madeawkward.beam.beam.test" />
       <extension name="coverage">
         <pattern>
@@ -519,13 +937,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="autotests.unauthorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditStreamTest" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.PasscodeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubredditStreamTest.testOpeningSubredditStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasscodeTest.testEnablePasscode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.madeawkward.beam.beam.test" />
       <extension name="coverage">
         <pattern>
@@ -534,14 +952,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="autotests.unauthorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditStreamTest" />
-      <option name="METHOD_NAME" value="testOpeningSubredditStream(int)" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.PasscodeTest" />
+      <option name="METHOD_NAME" value="testEnablePasscode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubredditsTest.testAddingSubredditsToFavorites" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WelcomeSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.madeawkward.beam.beam.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autotests.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autotests.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="autotests.testsuite.WelcomeSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcomeTest.testAreHeadlineAndMessageCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.madeawkward.beam.beam.test" />
       <extension name="coverage">
         <pattern>
@@ -550,8 +983,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="autotests.unauthorized" />
-      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.SubredditsTest" />
-      <option name="METHOD_NAME" value="testAddingSubredditsToFavorites(int[])" />
+      <option name="MAIN_CLASS_NAME" value="autotests.unauthorized.WelcomeTest" />
+      <option name="METHOD_NAME" value="testAreHeadlineAndMessageCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -559,11 +992,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTest" />
-        <item itemvalue="JUnit.SubredditStreamTest and 1 more" />
-        <item itemvalue="JUnit.SubredditStreamTest" />
-        <item itemvalue="JUnit.SubredditStreamTest.testOpeningSubredditStream" />
-        <item itemvalue="JUnit.SubredditsTest.testAddingSubredditsToFavorites" />
+        <item itemvalue="JUnit.PasscodeTest.testEnablePasscode" />
+        <item itemvalue="JUnit.PasscodeTest" />
+        <item itemvalue="JUnit.WelcomeTest.testAreHeadlineAndMessageCorrect" />
+        <item itemvalue="Gradle.beam-automated-tests [smoke]" />
+        <item itemvalue="JUnit.WelcomeSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -581,42 +1014,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2019.03.26 at 11h 33m 35s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 15m 30s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 11h 36m 18s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 18m 09s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 11h 42m 50s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 24m 05s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 11h 46m 02s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 27m 53s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 11h 55m 09s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 30m 42s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 11h 57m 50s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.09 at 17h 31m 41s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 12h 00m 26s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.12 at 13h 24m 23s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 21h 09m 04s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest_testEnablePasscode - 2019.04.14 at 18h 56m 35s.xml">
+      <configuration name="PasscodeTest.testEnablePasscode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 21h 11m 38s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest - 2019.04.14 at 22h 05m 10s.xml">
+      <configuration name="PasscodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.03.26 at 21h 24m 34s.xml">
-      <configuration name="LoginTest" configurationId="JUnit" />
+    <history-entry file="PasscodeTest - 2019.04.14 at 22h 08m 09s.xml">
+      <configuration name="PasscodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3190272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -625,13 +1058,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3759036" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3759036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -677,23 +1110,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -701,189 +1117,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/MainHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/PasscodeButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedMainPrecondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SubredditStreamHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/WelcomePrecondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/subredditstream/elements/SubredditName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/ScrollView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/subredditstream/SubredditStreamView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSubredditsPrecondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/categories.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/4.10/fileChanges/last-build.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/4.10/gc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/common/preconditions/UnauthorizedSearchPrecondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MobileCommands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/argumentsprovider/SubredditsViewArgumentsProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SubredditsHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/argumentsprovider/SubredditStreamViewArgumentsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/search/elements/SearchField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -898,10 +1139,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/ChangePasscodeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/RequirePasscodeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/SubredditButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/SettingsButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/elements/subreddits/ListOfSubreddits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/subreddits/SubredditsView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#908#909#0" expanded="true" />
@@ -910,223 +1236,339 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/LoginWebView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SearchHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/LoginButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/UsernameField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/Checkbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/RememberMeCheckbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inputData.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/InputPropertiesConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/BaseView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="81" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/AllowButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/login/elements/PasswordField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="144" selection-start-line="7" selection-start-column="144" selection-end-line="7" selection-end-column="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/profile/elements/Username.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/TurnPasscodeButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/AppManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/LoginHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/profile/ProfileView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/autotests/authorized/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/SubredditsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="41" selection-start-line="41" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/ProfileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/io/appium/java_client/remote/MobilePlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/Iphone8PlusSimulatorDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/ReenterPasscodeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterYourBeamPasscodeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterNewPasscodeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/EnterPasscodeField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/DeviceName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/BeamDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="16" column="94" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/7.0.0/5cd04e3be460d8bb8636de93d2ec35a115e871b2/java-client-7.0.0-sources.jar!/io/appium/java_client/remote/MobileCapabilityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/CapabilityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/IphoneDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/driver/Iphone8Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/views/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/ClickableElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/LocatorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/common/elements/BaseElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2526#2527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ParametersLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MobileCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/EnterPasscodeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/KeyButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/enterpasscode/elements/keyboard/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/settings/elements/CloseButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/elements/BackButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/settings/SettingsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/passcode/PasscodeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/SettingsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appmanager/PasscodeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/WelcomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" selection-start-line="17" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/MessagesButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/ProfileButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SearchButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/autotests/unauthorized/PasscodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/appviews/main/tabbar/elements/SubredditsButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="117" />
         </state>
       </provider>
     </entry>

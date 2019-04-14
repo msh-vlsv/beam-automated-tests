@@ -1,0 +1,1 @@
+{"uuid":"e96cf528-d6f2-447b-a54f-0572eb5b1233","historyId":"ab831d6417f1fb1a4e80b570a8ce1e96","labels":[{"name":"suite","value":"autotests.unauthorized.PasscodeTest"},{"name":"package","value":"autotests.unauthorized.PasscodeTest"}],"name":"testEnablePasscode()","status":"passed","stage":"finished","start":1554820051069,"stop":1554820072484}

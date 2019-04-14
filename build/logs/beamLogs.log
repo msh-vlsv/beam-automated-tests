@@ -1,18 +1,32 @@
-2019-03-26 21:25:12 INFO  [BeamLogger] - *** testLogin() is started ***
-2019-03-26 21:25:12 INFO  [BeamLogger] - Check is Welcome view visible
-2019-03-26 21:25:22 WARN  [BeamLogger] - Welcome view headline not found: By.AccessibilityId: Welcome to Beam 2
-2019-03-26 21:25:22 INFO  [BeamLogger] - Reinstall app
-2019-03-26 21:25:53 INFO  [BeamLogger] - Click "Connect reddit account" button
-2019-03-26 21:25:55 INFO  [BeamLogger] - Check is Login web view visible
-2019-03-26 21:26:01 INFO  [BeamLogger] - Fill Username field with value "beam_test"
-2019-03-26 21:26:29 INFO  [BeamLogger] - Fill Password field with value "qetwry135"
-2019-03-26 21:26:46 INFO  [BeamLogger] - Click Rememnber me checkbox
-2019-03-26 21:26:50 INFO  [BeamLogger] - Click Log in button
-2019-03-26 21:26:55 WARN  [BeamLogger] - Allow button not found: By.AccessibilityId: Allow
-2019-03-26 21:26:55 INFO  [BeamLogger] - Scroll down
-2019-03-26 21:26:58 INFO  [BeamLogger] - Click Allow button
-2019-03-26 21:27:03 INFO  [BeamLogger] - Click Allow button
-2019-03-26 21:27:05 INFO  [BeamLogger] - Check is Subreddits view visible
-2019-03-26 21:27:08 INFO  [BeamLogger] - Click Profile button
-2019-03-26 21:27:10 INFO  [BeamLogger] - *** testLogin() is failed ***
-2019-03-26 21:27:10 INFO  [BeamLogger] - ***
+2019-04-14 22:25:51 INFO  [BeamLogger] - *** Test is passcode set correctly is started ***
+2019-04-14 22:25:51 INFO  [BeamLogger] - Check is Main view visible
+2019-04-14 22:25:52 INFO  [BeamLogger] - Check is Subreddits view visible
+2019-04-14 22:25:54 INFO  [BeamLogger] - Click Subreddits button
+2019-04-14 22:25:56 INFO  [BeamLogger] - Click Profile button
+2019-04-14 22:25:58 INFO  [BeamLogger] - Click Settings button
+2019-04-14 22:25:59 INFO  [BeamLogger] - Click Passcode button
+2019-04-14 22:26:01 INFO  [BeamLogger] - Click Turn passcode on button
+2019-04-14 22:26:03 INFO  [BeamLogger] - Click Key 1
+2019-04-14 22:26:04 INFO  [BeamLogger] - Click Key 6
+2019-04-14 22:26:06 INFO  [BeamLogger] - Click Key 3
+2019-04-14 22:26:08 INFO  [BeamLogger] - Click Key 8
+2019-04-14 22:26:10 INFO  [BeamLogger] - Click Key 1
+2019-04-14 22:26:12 INFO  [BeamLogger] - Click Key 6
+2019-04-14 22:26:14 INFO  [BeamLogger] - Click Key 3
+2019-04-14 22:26:16 INFO  [BeamLogger] - Click Key 8
+2019-04-14 22:26:18 INFO  [BeamLogger] - Run app in background for 2 seconds
+2019-04-14 22:26:23 INFO  [BeamLogger] - Click Key 1
+2019-04-14 22:26:26 INFO  [BeamLogger] - Click Key 6
+2019-04-14 22:26:29 INFO  [BeamLogger] - Click Key 3
+2019-04-14 22:26:32 INFO  [BeamLogger] - Click Key 8
+2019-04-14 22:26:36 INFO  [BeamLogger] - Check is Passcode view visible
+2019-04-14 22:26:36 INFO  [BeamLogger] - Click Turn passcode off button
+2019-04-14 22:26:37 INFO  [BeamLogger] - Click Key 1
+2019-04-14 22:26:39 INFO  [BeamLogger] - Click Key 6
+2019-04-14 22:26:41 INFO  [BeamLogger] - Click Key 3
+2019-04-14 22:26:42 INFO  [BeamLogger] - Click Key 8
+2019-04-14 22:26:44 INFO  [BeamLogger] - Click Back button
+2019-04-14 22:26:45 INFO  [BeamLogger] - Click Close button
+2019-04-14 22:26:47 INFO  [BeamLogger] - Click Subreddits button
+2019-04-14 22:26:48 INFO  [BeamLogger] - *** Test is passcode set correctly is passed successfully ***
+2019-04-14 22:26:48 INFO  [BeamLogger] - ***

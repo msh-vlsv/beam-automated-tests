@@ -8,7 +8,7 @@ public class Iphone8PlusSimulatorDriver extends IphoneDriver {
     @Override
     public void setCustomDesiredCapabilities() {
         capabilities.setCapability(DEVICE_NAME, "iPhone 8 Plus");
-        capabilities.setCapability(PLATFORM_VERSION, "12.1");
+        capabilities.setCapability(PLATFORM_VERSION, "12.2");
         capabilities.setCapability(APP, APP_FILE_SIMULATOR);
         capabilities.setCapability(PERMISSIONS, "{\"com.madeawkward.mybeam\": {\"notifications\": \"YES\", " +
                 "\"photos\": \"YES\", \"location\": \"always\", \"camera\": \"YES\"}}");

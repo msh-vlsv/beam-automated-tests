@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="autotests.unauthorized.WelcomeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-28T18:28:06" hostname="Marias-MacBook-Pro.local" time="41.539">
+  <properties/>
+  <testcase name="testAreHeadlineAndMessageCorrect()" classname="autotests.unauthorized.WelcomeTest" time="41.539"/>
+  <system-out><![CDATA[2019-03-28 21:28:06 INFO  [BeamLogger] - *** Test are headline and message correct is started ***
+2019-03-28 21:28:06 INFO  [BeamLogger] - Check is Welcome view visible
+2019-03-28 21:28:16 WARN  [BeamLogger] - Welcome view headline not found: By.AccessibilityId: Welcome to Beam 2
+2019-03-28 21:28:17 INFO  [BeamLogger] - Reinstall app
+2019-03-28 21:28:46 INFO  [BeamLogger] - *** Test are headline and message correct is passed successfully ***
+2019-03-28 21:28:46 INFO  [BeamLogger] - ***
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

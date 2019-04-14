@@ -1,0 +1,6 @@
+b2019-03-28 21:28:06 INFO  [BeamLogger] - *** Test are headline and message correct is started ***
+G2019-03-28 21:28:06 INFO  [BeamLogger] - Check is Welcome view visible
+p2019-03-28 21:28:16 WARN  [BeamLogger] - Welcome view headline not found: By.AccessibilityId: Welcome to Beam 2
+72019-03-28 21:28:17 INFO  [BeamLogger] - Reinstall app
+n2019-03-28 21:28:46 INFO  [BeamLogger] - *** Test are headline and message correct is passed successfully ***
+-2019-03-28 21:28:46 INFO  [BeamLogger] - ***

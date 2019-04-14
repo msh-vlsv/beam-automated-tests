@@ -9,4 +9,8 @@ public class ProfileHelper extends HelperBase {
     public String getUsername() {
         return profileView.getUsername().getText();
     }
+
+    public void clickSettingsButton() {
+        profileView.getSettingsButton().click();
+    }
 }
